@@ -1,0 +1,29 @@
+ 
+/*
+ * upgrading filterTable.css
+ */
+select.pgSlc {
+    width: auto;
+}
+
+select.rspg {
+    font-size: 10px;
+}
+
+.showHideColsSpan {
+    float: left;
+}
+
+
+ #ldiv_filterTable {
+ width: 30%;
+ }
+ 
+ #rdiv_filterTable {
+ width: 35%;
+ }
+ 
+ #mdiv_filterTable {
+ width: 35%;
+ }
+ 
