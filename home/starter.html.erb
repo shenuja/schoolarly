@@ -1,0 +1,40 @@
+<% include_stylesheet 'home' %>
+<div class="back">
+    <%= link_to "Back to home", "/" %>
+</div>
+<div class="portletM">
+    <%= image_tag("/images/home/starter/starter.png", :class => "float_left down") %>
+    <h2><span class="title"><%= "Starter Programme" %></span></h2>
+    <span>Schoolarly's aim is to help build 'great schools' - schools that nurture learning beyond the classroom. We are looking to partner with trend-setting schools that are ready for the internet generation. The Schoolarly Starter Programme is a step in that direction.</span>
+</div>
+<div class="portletM">
+    <%= image_tag("/images/home/starter/benefits.png", :class => "float_left down") %>
+    <h2><span class="title"><%= "Benefits" %></span></h2>
+    <ul>
+        <li>
+            Get early access to new features 
+        </li>
+        <li>
+            Avail unlimited technical support over Skype and email
+        </li>
+        <li>
+            Receive help in email setup and data migration
+        </li>
+        <li>
+            If you are not satisfied for any reason, you get a full refund within 30 days of sign up 
+        </li>
+    </ul>
+</div>
+<div class="portletM">
+    <%= image_tag("/images/home/starter/contact.png", :class => "float_left") %>
+    <h2><span class="title"><%= "Contact" %></span></h2>
+    Please send us an email with your details to 
+	<%= mail_to "start@schoolarly.com", "start@schoolarly.com" %> or call us on 9446567898
+	
+</div>
+<div class="portletM">
+    <%= image_tag("/images/home/starter/details.png", :class => "float_left") %>
+    <h2><span class="title"><%= "Details" %></span></h2>
+    Please check out our <%= link_to "homepage", "/" %> for introduction video and feature details.
+    You can also read more about our ongoing experiences with various schools in <%= link_to "our blog", "http://blog.schoolarly.com" %>
+</div>
